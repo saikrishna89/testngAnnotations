@@ -10,5 +10,6 @@
 		<classes>
 			<class name="com.testng.annotations.testcases.TestDriver" />
 		</classes>
+		<!--testing changes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->

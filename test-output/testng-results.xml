@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="57" started-at="2017-02-08T07:53:00Z" finished-at="2017-02-08T07:53:00Z">
+    <groups>
+      <group name="Sanity">
+        <method signature="TestDriver.testMethod1()[pri:0, instance:com.testng.annotations.testcases.TestDriver@548a9f61]" name="testMethod1" class="com.testng.annotations.testcases.TestDriver"/>
+        <method signature="TestDriver.testMethod3()[pri:0, instance:com.testng.annotations.testcases.TestDriver@548a9f61]" name="testMethod3" class="com.testng.annotations.testcases.TestDriver"/>
+      </group> <!-- Sanity -->
+      <group name="Regression">
+        <method signature="TestDriver.testMethod1()[pri:0, instance:com.testng.annotations.testcases.TestDriver@548a9f61]" name="testMethod1" class="com.testng.annotations.testcases.TestDriver"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test name="Test" duration-ms="57" started-at="2017-02-08T07:53:00Z" finished-at="2017-02-08T07:53:00Z">
+      <class name="com.testng.annotations.testcases.TestDriver">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.testng.annotations.testcases.TestDriver@548a9f61]" name="beforeMethod" is-config="true" duration-ms="9" started-at="2017-02-08T02:53:00Z" finished-at="2017-02-08T02:53:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testMethod1()[pri:0, instance:com.testng.annotations.testcases.TestDriver@548a9f61]" name="testMethod1" duration-ms="8" started-at="2017-02-08T02:53:00Z" finished-at="2017-02-08T02:53:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod1 -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.testng.annotations.testcases.TestDriver@548a9f61]" name="beforeMethod" is-config="true" duration-ms="6" started-at="2017-02-08T02:53:00Z" finished-at="2017-02-08T02:53:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testMethod3()[pri:0, instance:com.testng.annotations.testcases.TestDriver@548a9f61]" name="testMethod3" duration-ms="2" started-at="2017-02-08T02:53:00Z" finished-at="2017-02-08T02:53:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod3 -->
+      </class> <!-- com.testng.annotations.testcases.TestDriver -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
